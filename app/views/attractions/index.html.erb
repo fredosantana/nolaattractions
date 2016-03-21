@@ -1,1 +1,9 @@
-<h1>This is NolAAttractions</h1>
+<% @attractions.each do |attraction| %>
+  <div>
+    <h1><%= attraction.name %></h1><br />
+    <i><%= attraction.address %></i><br />
+    <p><%= attraction.description %></p><br />
+  </div>
+
+  <hr />
+<% end %>
