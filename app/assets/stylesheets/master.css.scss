@@ -6,8 +6,18 @@
     text-align: left;
 }
 
+.box h1 {
+	font-family: 'caviar_dreamsbold', sans-serif;
+	color: #df80ff;
+}
+
+.box i, p {
+	font-family: 'caviar_dreamsregular', sans-serif;
+	color: yellow;
+}
+
 body { 
-  background: url('/assets/nola.jpg') no-repeat center center fixed; 
+  background: url('/assets/nola3.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,7 +31,12 @@ body {
     box-shadow: 0px 1px 3px #2a2a2a;
 }
 
+.navbar-inverse .navbar-brand {
+	color: #df80ff;
+}
+
 .navbar-brand {
 	font-size: 28px;
 	font-family: 'amaticbold', sans-serif;
+	font-color: #df80ff;
 }
